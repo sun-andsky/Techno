@@ -1,0 +1,173 @@
+
+body {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 1px;
+    font-family: Fira sans;
+    background-color: #ffffff;
+}
+
+/*navigation bar*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    background-color: #ffffff;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2.1rem 0.5rem 2.1rem;
+}
+
+#brand{
+    font-weight: 800;                                                                                            
+    font-size: 23px;
+    color:black;
+    font-family: rethink sans;
+    margin: 0;
+    padding-right: 1rem;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-left: 0px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 4px 0 4px;
+}
+
+.icon{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0.5rem;
+    margin-right: 0.7rem;
+    border-style: none;
+    font-family: fira sans;
+    font-size: medium;
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    font-family: fira sans;
+    position: relative;
+    display: inline-block;
+    padding: 10px 0px;
+    margin-right: 0.5rem;
+    font-size: small;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out;
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007BFF;
+    transition: width 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color:#007BFF
+}
+
+.btn:hover::after {
+width: 100%;
+}
+
+nav ul li a{
+    color: rgb(37, 43, 48);
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.searchbar {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    width:40rem;
+    border-radius: 50px;
+    background-color: #f5f5f5;
+    color:#4c4c4c;
+    border: 1px solid  #7c7c7c ;
+}
+
+.searchbar input[type=text]{
+    outline: none;
+}
+
+.searchbar i{
+    font-size: 0.7rem;
+    color: rgb(85, 85, 85);
+}
+
+.searchbar input{
+    border: 0px ;
+    width:300px;
+    font-size: 0.8rem;
+    border-radius: 50px;
+    background-color: #f5f5f5;
+    color: #3a3a3a;
+}
+
+.bi-search,
+.bi-cart,
+.bi-person-circle{
+    font-size: 1.3rem;
+    color: #4c4c4c;
+}
+/*end*/
+.cart{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+    background: #fff;
+    animation: fadeIn 0.8s ease-out forwards;
+    font-size: 2rem;
+    font-family: rethink sans;
+    opacity: 0.3;
+}
+
+
+
+@media (max-width: 1062px) {
+    .hamburger-menu{
+      display: flex;
+    }
+    .searchbar{
+      display: none;
+    }
+    .btn{
+      display: none;
+    }
+
+    
+}
+
+
+  
+

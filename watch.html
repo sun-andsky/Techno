@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techno-Watches</title>
+  <link rel="icon" type="image/svg+xml" href="assets/align-top.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@100&family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">   
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Rethink+Sans:wght@800&display=swap" rel="stylesheet">       
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/watch.css">
+</head>
+  
+<body>
+    <header>
+      <nav>
+        <p id="brand"><a href="index.html">Techno</a></p>
+        <div class="searchbar">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Search.." class="input text">
+        </div>
+        <ul class="menu">
+          <li><a href="tv.html"><button class="btn">TV's</button></a></li>
+          <li><a href="watch.html"><button class="btn">Watches</button></a></li>
+          <li><a href="smartphone.html"><button class="btn">Smartphones</button></a></li>
+          <li><a href="cart.html"><button class="icon"><i class="bi bi-cart"></i></button></a></li>
+          <li><a href="login.html"><button class="icon" ><i class="bi bi-person-circle"></i></button></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+        <div class="main-banner">
+          <div class="banner-dark">
+            <p id="product-name">Galaxy Watch6 Classic</p>
+            <p id="description">Timeless aesthetics combined with cutting-edge smartwatch tech</p><br>
+            <button id="dark-button">Buy now</button>
+            
+          </div>
+        </div>
+    </div>
+    <p id="highlights">Discover our top sellers</p>
+    <div class="tv-container">
+        <div class="tv-card">
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2307/gallery/in-galaxy-watch6-classic-r965-469944-sm-r965fzsains-thumb-537406436?$240_240_PNG$" alt="Crystal 4K UHD">
+            <div class="tv-title">Galaxy Watch</div>
+            <p id="offer" >Save up to ₹ 3000* with instant bank discount</p>
+            <a href="#" class="tv-btn">Buy now</a>
+        </div>
+        <div class="tv-card">
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2307/gallery/in-galaxy-watch6-r935-469950-sm-r935fzeains-thumb-537406655?$240_240_PNG$" alt="QLED 4K">
+            <div class="tv-title">Galaxy Watch</div>
+            <p id="offer">Save up to ₹ 4000* with instant bank discount</p>
+            <a href="#" class="tv-btn">Buy now</a>
+        </div>
+        <div class="tv-card">
+            <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2208/gallery/in-galaxy-watch5-pro-sm-r920nzkainu-thumb-533190300?$240_240_PNG$" alt="OLED">
+            <div class="tv-title">Galaxy Watch</div>
+            <p id="offer">Save up to ₹ 3000* with Shop App voucher</p>
+            <a href="#" class="tv-btn">Buy now</a>
+        </div>
+    </div>
+    <p id="highlights">Latest deals on Watches</p>
+    <hr class = "line">
+    <div class="filter-and-products">
+      <div class="filter">
+        <h3>Deals</h3>
+        <label class="checkbox-container"><input type="checkbox" class="custom-checkbox" name="deal" checked><span class="checkbox-box"></span> Recommended</label>
+        <label class="checkbox-container"><input type="checkbox" class="custom-checkbox" name="deal"><span class="checkbox-box"></span> New</label>
+        <label class="checkbox-container"><input type="checkbox" class="custom-checkbox" name="deal"><span class="checkbox-box"></span> Hot</label>
+        <label class="checkbox-container"><input type="checkbox" class="custom-checkbox" name="deal"><span class="checkbox-box"></span> Premium TV deals</label>
+        <hr class="line">
+        <h3>Price Range</h3>
+        <label class="checkbox-container"><input type="checkbox" class="custom-checkbox" name="price" checked><span class="checkbox-box"></span> Recommended</label>
+        <label class="checkbox-container"><input type="checkbox" class="custom-checkbox" name="price"><span class="checkbox-box"></span> New</label>
+        <label class="checkbox-container"><input type="checkbox" class="custom-checkbox" name="price"><span class="checkbox-box"></span> Hot</label>
+        <label class="checkbox-container"><input type="checkbox" class="custom-checkbox" name="price"><span class="checkbox-box"></span> Premium TV deals</label>
+        <hr class="line">
+        <h3>Sort By</h3>
+        <select>
+            <option>Popularity</option>
+            <option>Low to High</option>
+            <option>High to Low</option>
+        </select>
+      </div>
+      <div class="tv-product-container">
+        <div class="tv-sale-card">
+          <img id="image" src="https://images.samsung.com/is/image/samsung/p6pim/in/2208/gallery/in-galaxy-watch5-pro-sm-r920nzkainu-thumb-533190300?$240_240_PNG$">
+            <div id="title">Galaxy Watch</div>
+            <p id="product-info"><b><b>Colour: </b></b>Mystic Black</p>
+            <div id="price">₹47990.00</div>
+            <p id="product-info">MRP (Inclusive of all taxes)<del>₹15999.00</del><font>Save ₹11209.00</font><br></p>
+            <button id="buynow">Buy Now</button>
+        </div>
+        <div class="tv-sale-card">
+          <img id="image" src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-r390nzsainu/gallery/in-galaxy-fit3-r390-sm-r390nzsainu-thumb-539989193?$216_216_PNG$">
+            <div id="title">Galaxy Watch</div>
+            <p id="product-info"><b><b>Colour: </b></b>Mystic Black</p>
+            <div id="price">₹47990.00</div>
+            <p id="product-info">MRP (Inclusive of all taxes)<del>₹15999.00</del><font>Save ₹11209.00</font><br></p>
+            <button id="buynow">Buy Now</button>
+        </div>
+        <div class="tv-sale-card">
+          <img id="image" src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-r390nzaainu/gallery/in-galaxy-fit3-r390-sm-r390nzaainu-thumb-539989180?$216_216_PNG$">
+            <div id="title">Galaxy Watch</div>
+            <p id="product-info"><b><b>Colour: </b></b>Mystic Black</p>
+            <div id="price">₹47990.00</div>
+            <p id="product-info">MRP (Inclusive of all taxes)<del>₹15999.00</del><font>Save ₹11209.00</font><br></p>
+            <button id="buynow">Buy Now</button>
+        </div>
+        <div class="tv-sale-card">
+          <img id="image" src="https://images.samsung.com/is/image/samsung/p6pim/in/2208/gallery/in-galaxy-watch5-pro-sm-r920nzkainu-thumb-533190300?$240_240_PNG$">
+            <div id="title">Galaxy Watch</div>
+            <p id="product-info"><b><b>Colour: </b></b>Mystic Black</p>
+            <div id="price">₹47990.00</div>
+            <p id="product-info">MRP (Inclusive of all taxes)<del>₹15999.00</del><font>Save ₹11209.00</font><br></p>
+            <button id="buynow">Buy Now</button>
+        </div>
+        <div class="tv-sale-card">
+          <img id="image" src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-r390nzaainu/gallery/in-galaxy-fit3-r390-sm-r390nzaainu-thumb-539989180?$216_216_PNG$">
+            <div id="title">Galaxy Watch</div>
+            <p id="product-info"><b><b>Colour: </b></b>Mystic Black</p>
+            <div id="price">₹47990.00</div>
+            <p id="product-info">MRP (Inclusive of all taxes)<del>₹15999.00</del><font>Save ₹11209.00</font><br></p>
+            <button id="buynow">Buy Now</button>
+        </div>
+        <div class="tv-sale-card">
+          <img id="image" src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-r861nidains/gallery/in-galaxy-watch-fe-r861-sm-r861nidains-thumb-542822645?$216_216_PNG$">
+            <div id="title">Galaxy Watch</div>
+            <p id="product-info"><b><b>Colour: </b></b>Mystic Black</p>
+            <div id="price">₹47990.00</div>
+            <p id="product-info">MRP (Inclusive of all taxes)<del>₹15999.00</del><font>Save ₹11209.00</font><br></p>
+            <button id="buynow">Buy Now</button>
+        </div>
+        <div class="tv-sale-card">
+          <img id="image" src="https://images.samsung.com/is/image/samsung/p6pim/in/2208/gallery/in-galaxy-watch5-pro-sm-r920nzkainu-thumb-533190300?$240_240_PNG$">
+            <div id="title">Galaxy Watch</div>
+            <p id="product-info"><b><b>Colour: </b></b>Mystic Black</p>
+            <div id="price">₹47990.00</div>
+            <p id="product-info">MRP (Inclusive of all taxes)<del>₹15999.00</del><font>Save ₹11209.00</font><br></p>
+            <button id="buynow">Buy Now</button>
+        </div>
+
+        </div>
+    </div>
+    
+
+    </div>
+    <footer>
+      <hr class = "line">
+      <ul><li class="footer-details">Copyright ⓒ 1995-2025 SAMSUNG All Rights reserved.</li>
+      <li class="footer-details">Please dispose of e-waste and plastic waste responsibly.<br>
+        For more information or e-waste pick up, please call 1800 5 7267864 or click here for more details</li>
+      <li class="footer-details">Registered Office Address: 6th Floor, DLF Centre, Sansad Marg, New Delhi-110001<br>
+        Corporate Identification Number (CIN): U31900DL1995PTC07138</li></ul>
+      <hr class = "line">
+      <div class = "last-footer-section">
+          <ul class = "footer-info">
+          <li>India/English</li>
+          <li>Privacy</li>
+          <li>legal</li>
+          <li>CSR Policy</li>
+          <li>Sitemap</li>
+        </ul>
+        <div class="contact-links">
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-whatsapp"></i>
+          <i class="bi bi-linkedin"></i>
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-twitter-x"></i>
+          <i class="bi bi-instagram"></i>
+        </div>
+      </div>
+
+    </footer>
+    
+
+</body>
+</html>

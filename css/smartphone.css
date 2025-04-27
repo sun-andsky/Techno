@@ -1,0 +1,291 @@
+
+body {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 1px;
+    font-family: Fira sans;
+    background-color: #ffffff;
+}
+
+.main-banner {
+    background-image: url("https://images.samsung.com/is/image/samsung/assets/in/2501/pcd/smartphones/PCD_Galaxy-S_Curation-KV_1440x640_pc.jpg?$1440_640_JPG$");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 23rem;
+    align-content: center;
+    margin: 6rem 2rem 2rem 2rem;
+    color: white;
+    text-align: left;
+    
+  }
+.banner-dark {
+    padding-left: 10rem ;
+}
+#product-name{
+    font-family: Fira sans;
+    font-size: 1.6rem;
+    line-height: 100%;
+    color: white;
+    font-weight: 550;
+    margin-bottom: 1rem;
+    
+}
+#dark-button{
+    border-radius: 50px;
+    color: rgb(38, 37, 94);
+    background-color: rgb(255, 255, 255);
+    padding: 9px 17px 9px 17px;
+    border-style: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+#description{
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 150%;
+}
+.tv-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+.tv-card {
+    background: white;
+    padding: 18px;
+    text-align: center;
+}
+.tv-card img {
+    border-radius: 10px;
+    height: 13rem;
+}
+.tv-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 8px;
+    font-family: rethink sans;
+}
+.price {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+}
+.tv-btn {
+    background: black;
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.4rem 1.3rem 0.4rem 1.3rem;
+    text-align: center;
+}
+#offer{
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.filter{ 
+    width: 18rem;
+    padding: 1.5rem;
+    margin: 0.8rem 0rem 0.8rem 2.5rem;
+    border-right: 2px solid #e9e9e9;
+    color: #333;
+}
+
+
+.custom-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom circular checkbox */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+    user-select: none;
+}
+
+.checkbox-box {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #333;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+
+/* Checkmark (hidden by default) */
+.checkbox-box::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #333333;
+    display: none;
+    border-radius: 50%; /* Make checkmark circular */
+}
+
+/* Show checkmark when checked */
+.custom-checkbox:checked + .checkbox-box::after {
+    display: block;
+}
+
+/* Styling for filter section */
+
+
+.filter h3 {
+    margin-bottom: 1rem;
+    margin-top: 0.8rem;
+    color: black;
+}
+
+.filter label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 0.7rem;
+}
+
+/* Styling for select and options */
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+option {
+    padding: 8px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.filter-and-products{
+    display: flex;
+}
+
+.tv-product-container{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/*cards*/
+
+.tv-sale-card{
+    padding: 0.8rem;
+    width: 12rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+#product-info{
+    font-size:0.6rem;
+    font-weight: 300;
+    margin: 1rem 0rem 1rem 0rem;
+}
+#title{
+    font-family: rethink sans;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+#image{
+    height:13rem;
+    width:13rem;
+    background-color:rgb(247, 247, 247); ;
+    border-radius: 35px;
+    padding: 2rem; 
+    margin: 0 0 0.8rem 0;
+}
+#buynow{
+    background-color: black;
+    color:white;
+    padding:0.5rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    width: 130%;
+}
+#buynow:hover{
+    opacity:0.4;
+}
+#price{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+font{
+    color: #007BFF;
+    font-weight: 600;
+}
+
+
+@media (max-width: 1062px) {
+    .hamburger-menu{
+      display: flex;
+    }
+    .searchbar{
+      display: none;
+    }
+    .btn{
+      display: none;
+    }
+    .filter{
+     display: none;
+    }
+    .filter-and-products,.tv-product-container{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .tv-sale-card{
+        padding: 0.8rem;
+        width: fit-content;
+        border-radius: 10px;
+        font-size: 0.8rem;
+        text-align: left;
+    }
+    
+    
+    .banner-dark {
+        padding-left: 1rem ;
+    }
+
+    #buynow{
+        background-color: black;
+        color:white;
+        padding:0.5rem;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .contact-links {
+        padding: 0rem 1rem 0rem 3rem;
+        }
+  }
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techno</title>
+  <link rel="icon" type="image/svg+xml" href="align-top.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@100&family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+</head>
+  
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <p id="brand"><a href="index.html">Techno</a></p>
+      <ul class="menu">
+        <li><a><button class="icon"><i class="bi bi-person-circle"></i></button></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Space under fixed header -->
+
+
+  <!-- Login/Register Sliding Form -->
+  <div class="container">
+    <input type="checkbox" id="toggle">
+    <div class="form-container">
+      <div class="form login-form">
+        <h2>Login</h2>
+        <form>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Password" required>
+          <button type="submit">Login</button>
+          <label for="toggle" class="switch">Don't have an account? <u>Register</u></label>
+        </form>
+      </div>
+
+      <div class="form register-form">
+        <h2>Register</h2>
+        <form>
+          <input type="text" placeholder="Username" required>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Password" required>
+          <button type="submit">Register</button>
+          <label for="toggle" class="switch">Already have an account? <u>Login</u> </label>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
